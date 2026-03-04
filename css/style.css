@@ -1,0 +1,205 @@
+/* reset CSS (útil para padronizar estilos) */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+header{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 2rem;
+}
+.logo img{
+    width: 211px;
+}
+.sign-in{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+} 
+
+.sign-in button{
+    border: none;
+}
+
+input[type='text'],
+input[type='email'],
+input[type='password'] {
+  width: 180px;
+  padding: 0.5rem;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+
+
+
+body { 
+    font-family: 'Roboto', sans-serif;
+    color: #444;
+    
+}
+
+section{
+    padding: 3rem 0 4rem 0;
+
+}
+
+h1{
+    font-size: 2rem;
+    font-weight: normal;
+}
+
+h1.title {
+  margin-bottom: 2rem;
+  text-align: center;
+  font-weight: bold;
+}
+
+.gray{
+
+    background-color: #f7f7f7;
+}
+
+.container{
+    max-width: 1000px;
+    margin: 0 auto; /*centraliza o conteúdo horizontalmente */
+
+}
+.hero {
+  width: 60%;
+  margin: auto;
+}
+
+
+.intro p{
+    margin: 1rem 0;
+    font-size: 1.5rem;
+    font-weight: 100;
+
+}
+
+.button{
+    padding: 10px 25px;
+    border-radius: 5px;
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.1);
+    margin-right: 5px;
+    text-decoration: none;
+}
+.primary{
+    background-color: #3693f3;
+    color: white;
+}
+.secondary{
+    background-color: white;
+    color: #444;
+}
+
+.button:hover{ /* efeito ao passar pelo botão    */
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2);
+}
+
+.intro .cta{
+    margin: 2rem 0 ;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+
+    height: 150px;
+    width:18%
+    
+}
+
+.card.red {
+    height: 100px;
+    background-color: #ff4d4d;
+    
+    border-radius: 10px;
+    font-size: 1.7rem;
+    color: white;
+}
+.card.yellow {
+    height: 100px;
+    background-color: #ffdb4d;
+    
+    border-radius: 10px;
+    font-size: 1.7rem;
+    color: white;
+}
+
+.card.blue {
+    height: 100px;
+    background-color: #4d94ff;
+    
+    border-radius: 10px;
+    font-size: 1.7rem;
+    color: white;
+
+}
+.card.green {
+    height: 100px;
+    background-color: #4dff88;
+    
+    border-radius: 10px;
+    font-size: 1.7rem;
+    color: white;
+    border-radius: 10px;
+}
+.card.purple {
+    height: 100px;
+    background-color: #b84dff;
+    
+    border-radius: 10px;
+    font-size: 1.7rem;
+    color: white;
+}
+
+.cards{
+    display: flex;
+    justify-content: space-between;
+    
+    border-radius: 10px;
+    font-size: 1.7rem;
+    color: white;
+}
+
+
+.member img{
+    width: 120px;
+    border-radius: 120px;
+    border-radius: 50%;
+
+}
+.members{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+footer {
+  background-color: #3788bf;
+}
+
+footer ul {
+  display: flex;
+  justify-content: space-evenly;
+
+  padding: 2rem 0 0 0;
+  list-style-type: none;
+}
+
+footer a {
+  color: white;
+}
+
+footer p.copyright {
+  padding: 3rem 0;
+  text-align: center;
+  color: #ffffffdd;
+}
+
